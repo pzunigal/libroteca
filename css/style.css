@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.login {
+    width: 100%;
+    height: 100px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.login h1 {
+    font-size: 2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.login h1 img {
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    gap: 10px; /* Espacio entre botones */
+}
+
+.login button {
+    padding: 8px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+#buttonInicio {
+    background-color: #085394;
+    color: white;
+}
+
+#buttonRegistro {
+    background-color: #9fc5f8;
+    color: black;
+}
+
+header nav ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav ul li img {
+    margin-right: 5px;
+}
+
+main ul {
+    width: 100%;
+    height: 100px;
+    background-color: #9fc5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+main ul li {
+    list-style: none;
+}
+
+main ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+.titulo {
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.card button {
+    padding: 8px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #085394;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #085394;
+    color: white;
+    position: fixed; /* Fijar al final de la página */
+    bottom: 0; /* Fijar al final de la página */
+    /* Comento estas partes porque siempre se me olvida para que las uso ;-; */
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

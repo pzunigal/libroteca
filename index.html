@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Libroteca</title>
+</head>
+<body>
+    <header>
+        <div class="login">
+            <h1>Libroteca <img src="img/logo.png" alt=""></h1>
+            <div class="buttons">
+                <button id="buttonInicio" onclick="iniciarSesion()">Iniciar sesión</button>
+            <button id="buttonRegistro">Registrarse</button>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="img/libro.png" alt="imagen libro">Elige tu libro</a></li>
+                <li><a href="#"><img src="img/check.png" alt="imagen check">Revisa disponibilidad</a></li>
+                <li><a href="#"><img src="img/separalo.png" alt="imagen separalo">Sepáralo</a></li>
+                <li><a href="#"><img src="img/shipping.png" alt="imagen recibelo">Recíbelo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <ul>
+            <li><a href="#" onclick="cambiarTitulo(this)">Ficción</a></li>
+            <li><a href="#" onclick="cambiarTitulo(this)">Historicos</a></li>
+            <li><a href="#" onclick="cambiarTitulo(this)">Tecnologia</a></li>
+            <li><a href="#" onclick="cambiarTitulo(this)">Autoayuda</a></li>
+            <li><a href="#" onclick="cambiarTitulo(this)">Poesia</a></li>
+        </ul>
+        <div class="titulo">
+            <h2 id="tituloLibro">Todos Los Libros</h2>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="img/cien.jpg" alt="">
+                <h3>Cien años de Soledad</h3>
+                <p>Gabriel García Marquez</p>
+                <button onclick="cambiarEstado(this)">Rentar</button>
+            </div>
+            <div class="card">
+                <img src="img/rayuela.jpg" alt="">
+                <h3>Rayuela</h3>
+                <p>Julio Cortazar</p>
+                <button onclick="cambiarEstado(this)">Rentar</button>
+            </div>
+            <div class="card">
+                <img src="img/travesuras.jpg" alt="">
+                <h3>Travesuras de la niña mala</h3>
+                <p>Mario Vargas Llosa</p>
+                <button onclick="cambiarEstado(this)">Rentar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados. Libroteca</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
